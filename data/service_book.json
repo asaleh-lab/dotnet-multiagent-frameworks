@@ -1,0 +1,116 @@
+{
+  "garage": "Bay Three",
+  "labour_eur_per_hour": 90,
+  "jobs": [
+    {
+      "id": "oil-filter",
+      "name": "Oil and filter",
+      "bay": "service",
+      "fits": ["Polo 1.0", "Golf 1.4"],
+      "labour_hours": 0.5,
+      "parts": [
+        {"sku": "OIL-5W30-5", "name": "5W-30 5 litre", "eur": 32, "in_stock": true},
+        {"sku": "FIL-OC47", "name": "Oil filter OC47", "eur": 9, "in_stock": true}
+      ],
+      "notes": "Drain, new filter, refill, reset the interval light."
+    },
+    {
+      "id": "annual-check",
+      "name": "Annual check",
+      "bay": "service",
+      "fits": ["Polo 1.0", "Golf 1.4"],
+      "labour_hours": 1.0,
+      "parts": [],
+      "notes": "Lights, brakes, fluid levels, and a short road test. No parts unless we find a fault."
+    },
+    {
+      "id": "wipers-front",
+      "name": "Front wiper blades",
+      "bay": "service",
+      "fits": ["Polo 1.0", "Golf 1.4"],
+      "labour_hours": 0.2,
+      "parts": [
+        {"sku": "WIP-F-600", "name": "Front blades 600 mm pair", "eur": 18, "in_stock": true}
+      ],
+      "notes": "Swap both blades. Keep the old pair in the boot if the driver wants them."
+    },
+    {
+      "id": "plugs-polo",
+      "name": "Spark plugs",
+      "bay": "service",
+      "fits": ["Polo 1.0"],
+      "labour_hours": 0.6,
+      "parts": [
+        {"sku": "PLG-POLO-3", "name": "Spark plugs Polo set of 3", "eur": 24, "in_stock": true}
+      ],
+      "notes": "Three plugs. Gap them before they go in."
+    },
+    {
+      "id": "pads-front-golf",
+      "name": "Front brake pads",
+      "bay": "repair",
+      "fits": ["Golf 1.4"],
+      "labour_hours": 1.0,
+      "parts": [
+        {"sku": "PAD-GOLF-F", "name": "Front pads Golf", "eur": 48, "in_stock": true}
+      ],
+      "notes": "Pads only. Discs stay if they are over 22 mm."
+    },
+    {
+      "id": "pads-rear-golf",
+      "name": "Rear brake pads",
+      "bay": "repair",
+      "fits": ["Golf 1.4"],
+      "labour_hours": 1.0,
+      "parts": [
+        {"sku": "PAD-GOLF-R", "name": "Rear pads Golf", "eur": 42, "in_stock": true}
+      ],
+      "notes": "Rear pads. Check the handbrake after."
+    },
+    {
+      "id": "discs-front-golf",
+      "name": "Front discs and pads",
+      "bay": "repair",
+      "fits": ["Golf 1.4"],
+      "labour_hours": 1.5,
+      "parts": [
+        {"sku": "DSC-GOLF-F", "name": "Front discs Golf pair", "eur": 86, "in_stock": false},
+        {"sku": "PAD-GOLF-F", "name": "Front pads Golf", "eur": 48, "in_stock": true}
+      ],
+      "notes": "Discs are not on the rack. Order in before we book the lift."
+    },
+    {
+      "id": "battery-60ah",
+      "name": "Battery",
+      "bay": "repair",
+      "fits": ["Polo 1.0", "Golf 1.4"],
+      "labour_hours": 0.4,
+      "parts": [
+        {"sku": "BAT-60AH", "name": "Battery 60 Ah", "eur": 95, "in_stock": true}
+      ],
+      "notes": "Register the battery on cars that need a coding tool. Polo does. Golf 1.4 does not."
+    },
+    {
+      "id": "coolant-hose-golf",
+      "name": "Coolant hose",
+      "bay": "repair",
+      "fits": ["Golf 1.4"],
+      "labour_hours": 1.5,
+      "parts": [
+        {"sku": "HOS-GOLF-L", "name": "Lower coolant hose Golf", "eur": 29, "in_stock": false}
+      ],
+      "notes": "Hose is on order. Do not run the engine until it is on and the system is bled."
+    },
+    {
+      "id": "puncture",
+      "name": "Puncture repair",
+      "bay": "repair",
+      "fits": ["Polo 1.0", "Golf 1.4"],
+      "labour_hours": 0.5,
+      "parts": [
+        {"sku": "PLG-TYRE", "name": "Repair plug", "eur": 6, "in_stock": true}
+      ],
+      "notes": "Plug from the outside if the hole is in the tread. Sidewall is a new tyre, not a plug."
+    }
+  ]
+}

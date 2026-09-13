@@ -1,0 +1,24 @@
+pick_job:
+  description: >
+    Bay Three intake: {intake}
+
+    Service book:
+    {book}
+
+    Pick one job id. Name the car. Do not write the card yet.
+  expected_output: A job id from the book, the car, and one sentence why.
+copy_book:
+  description: >
+    Copy labour and parts for that job from the book.
+    Use the labour rate in the book. Say in the rack or order in.
+
+    Service book:
+    {book}
+  expected_output: Labour hours, labour euros, each part with euros and stock.
+write_card:
+  description: >
+    Fill the job card from the advisor and the clerk.
+    Use the book. If a part is not on the rack, stock is order in.
+  expected_output: >
+    A job card with job_id, name, car, bay, labour hours, labour euros,
+    parts, and notes.
