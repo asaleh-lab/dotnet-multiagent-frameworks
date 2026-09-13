@@ -1,0 +1,9 @@
+bin/
+obj/
+.env
+.vs/
+*.user
+node_modules
+dist
+__pycache__
+.venv
