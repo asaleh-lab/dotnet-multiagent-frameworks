@@ -15,55 +15,55 @@ copy .env.example .env
 
 Put your OpenAI API key in `.env`.
 
-## Let's send a car through three graph shapes
+## Send a car through three graph shapes
 
 ```powershell
 dotnet run --project src/LangGraphPatterns
 ```
 
-## Let's orchestrate the book, then score the card
+## Orchestrate the book, then score the card
 
 ```powershell
 dotnet run --project src/LangGraphOrchestrate
 ```
 
-## Let's send the same intake through a crew
+## Send the same intake through a crew
 
 ```powershell
 dotnet run --project src/CrewBasics
 ```
 
-## Let's fill a typed job card
+## Fill a typed job card
 
 ```powershell
 dotnet run --project src/CrewStructured
 ```
 
-## Let's hang the book tool on the agent, then on the task
+## Hang the book tool on the agent, then on the task
 
 ```powershell
 dotnet run --project src/CrewTools
 ```
 
-## Let's run the crew with the tool and the card together
+## Run the crew with the tool and the card together
 
 ```powershell
 dotnet run --project src/CrewApplied
 ```
 
-## Let's look up the book with a kernel agent, then ask what we wrote
+## Look up the book with a kernel agent, then ask what we wrote
 
 ```powershell
 dotnet run --project src/BeeaiWorkflow
 ```
 
-## Let's write the card in a two-agent chat, then in a group
+## Write the card in a two-agent chat, then in a group
 
 ```powershell
 dotnet run --project src/Ag2Chat
 ```
 
-## Let's run the same job on three frameworks
+## Run the same job on three frameworks
 
 ```powershell
 dotnet run --project src/CrewApplied
